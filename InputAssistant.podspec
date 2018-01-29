@@ -29,7 +29,7 @@ This library is a view that shows custom auto-complete suggestions for your UITe
                    DESC
 
   s.homepage     = "https://github.com/IMcD23/InputAssistant"
-  s.screenshots  = "https://github.com/IMcD23/InputAssistant/blob/master/Resources/Keyboard.png", "https://github.com/IMcD23/InputAssistant/blob/master/Resources/Keyboard_iPad.png"
+  s.screenshots  = "https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard.png", "https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard_iPad.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -127,6 +127,7 @@ This library is a view that shows custom auto-complete suggestions for your UITe
   #  you can include multiple dependencies to ensure it works.
 
   s.requires_arc = true
+  s.swift_version = "4.0"
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

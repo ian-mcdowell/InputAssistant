@@ -15,6 +15,8 @@
 		3C2E4368201E883E00E4254A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E4366201E883E00E4254A /* LaunchScreen.storyboard */; };
 		3C2E4370201E8A4C00E4254A /* InputAssistant.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2E4347201E7E6C00E4254A /* InputAssistant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3C2E4372201E8C2A00E4254A /* InputAssistantCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E4371201E8C2A00E4254A /* InputAssistantCollectionView.swift */; };
+		3C2E4382201EFAD800E4254A /* InputAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E4355201E801400E4254A /* InputAssistantView.swift */; };
+		3C2E4383201EFAD800E4254A /* InputAssistantCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E4371201E8C2A00E4254A /* InputAssistantCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		3C2E4367201E883E00E4254A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C2E4369201E883E00E4254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C2E4371201E8C2A00E4254A /* InputAssistantCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAssistantCollectionView.swift; sourceTree = "<group>"; };
+		3C2E4379201EFACD00E4254A /* liblibInputAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibInputAssistant.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3C2E4358201E883E00E4254A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2E4376201EFACD00E4254A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,6 +98,7 @@
 			children = (
 				3C2E4347201E7E6C00E4254A /* InputAssistant.framework */,
 				3C2E435B201E883E00E4254A /* InputAssistant Sample.app */,
+				3C2E4379201EFACD00E4254A /* liblibInputAssistant.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +184,22 @@
 			productReference = 3C2E435B201E883E00E4254A /* InputAssistant Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3C2E4378201EFACD00E4254A /* libInputAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2E437F201EFACD00E4254A /* Build configuration list for PBXNativeTarget "libInputAssistant" */;
+			buildPhases = (
+				3C2E4375201EFACD00E4254A /* Sources */,
+				3C2E4376201EFACD00E4254A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libInputAssistant;
+			productName = libInputAssistant;
+			productReference = 3C2E4379201EFACD00E4254A /* liblibInputAssistant.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,6 +215,9 @@
 						LastSwiftMigration = 0920;
 					};
 					3C2E435A201E883E00E4254A = {
+						CreatedOnToolsVersion = 9.2;
+					};
+					3C2E4378201EFACD00E4254A = {
 						CreatedOnToolsVersion = 9.2;
 					};
 				};
@@ -206,6 +236,7 @@
 			projectRoot = "";
 			targets = (
 				3C2E4346201E7E6C00E4254A /* InputAssistant */,
+				3C2E4378201EFACD00E4254A /* libInputAssistant */,
 				3C2E435A201E883E00E4254A /* InputAssistant Sample */,
 			);
 		};
@@ -246,6 +277,15 @@
 			files = (
 				3C2E4360201E883E00E4254A /* ViewController.swift in Sources */,
 				3C2E435E201E883E00E4254A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2E4375201EFACD00E4254A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2E4383201EFAD800E4254A /* InputAssistantCollectionView.swift in Sources */,
+				3C2E4382201EFAD800E4254A /* InputAssistantView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +487,24 @@
 			};
 			name = Release;
 		};
+		3C2E4380201EFACD00E4254A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C2E4381201EFACD00E4254A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -473,6 +531,15 @@
 			buildConfigurations = (
 				3C2E436B201E883E00E4254A /* Debug */,
 				3C2E436C201E883E00E4254A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2E437F201EFACD00E4254A /* Build configuration list for PBXNativeTarget "libInputAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2E4380201EFACD00E4254A /* Debug */,
+				3C2E4381201EFACD00E4254A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

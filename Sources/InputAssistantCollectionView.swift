@@ -95,7 +95,7 @@ private class InputAssistantCollectionViewCell: UICollectionViewCell {
     let label: UILabel
     let highlightedBackgroundColor = UIColor(red: 235/255, green: 237/255, blue: 239/255, alpha: 1)
     let regularBackgroundColor = UIColor(red: 174/255, green: 180/255, blue: 186/255, alpha: 1)
-    let darkBackgroundColor = UIColor(red: 136/255, green: 136/255, blue: 136/255, alpha: 1)
+    let darkBackgroundColor = UIColor(white: 200/255, alpha: 0.4)
 
     var keyboardAppearance: UIKeyboardAppearance = .default {
         didSet { updateSelectionState() }

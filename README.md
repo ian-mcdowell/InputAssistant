@@ -16,8 +16,7 @@ This library is a view that shows custom auto-complete suggestions for your UITe
 ![Package Managers](https://img.shields.io/badge/supports-Carthage-orange.svg)
 [![Contact](https://img.shields.io/badge/contact-%40ian__mcdowell-3a8fc1.svg)](https://twitter.com/ian_mcdowell)
 
-<img src="Resources/Keyboard.png" height="300">
-<img src="Resources/Keyboard_iPad.png" height="300">
+<img src="Resources/Keyboard.png" height="300"> <img src="Resources/Keyboard_iPad.png" height="300"> 
 
 # Requirements
 

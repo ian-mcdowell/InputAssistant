@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-This library is a view that shows custom auto-complete suggestions for your UITextField / UITextView.
+InputAssistant 1.0.1 - This library is a view that shows custom auto-complete suggestions for your UITextField / UITextView.
                    DESC
 
   s.homepage     = "https://github.com/IMcD23/InputAssistant"
-  s.screenshots  = "https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard.png","https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard_iPad.png",
+  s.screenshots  = "https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard.png","https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard_iPad.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ This library is a view that shows custom auto-complete suggestions for your UITe
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Sources/*.swift"
+  s.source_files  = "Sources/**/*.swift"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

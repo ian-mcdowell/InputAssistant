@@ -1,10 +1,10 @@
 # Input Assistant
 
 <p align="center">
-  <a href="https://github.com/IMcD23/Git">Git</a> &bull;
-  <b>InputAssistant</b> &bull;
+  <a href="https://github.com/IMcD23/TiltedTabView">TiltedTabView</a> &bull;
   <a href="https://github.com/IMcD23/TabView">TabView</a> &bull;
-  <a href="https://github.com/IMcD23/TiltedTabView">TiltedTabView</a>
+  <b>InputAssistant</b> &bull;
+  <a href="https://github.com/IMcD23/Git">Git</a>
 </p>
 
 --------
@@ -21,6 +21,7 @@ This library is a view that shows custom auto-complete suggestions for your UITe
 # Requirements
 
 * Xcode 9 or later
+* iOS 10.0 or later
 
 # Usage
 

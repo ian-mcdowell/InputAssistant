@@ -1,4 +1,4 @@
-# InputAssistant
+# Input Assistant
 
 <p align="center">
   <a href="https://github.com/IMcD23/Git">Git</a> &bull;

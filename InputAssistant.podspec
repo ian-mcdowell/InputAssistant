@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "InputAssistant"
   s.version      = "1.0.1"
-  s.summary      = "Provide custom auto-completion options for the iOS keyboard."
+  s.summary      = "This library is a view that shows custom auto-complete suggestions for your UITextField / UITextView."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,7 +29,7 @@ This library is a view that shows custom auto-complete suggestions for your UITe
                    DESC
 
   s.homepage     = "https://github.com/IMcD23/InputAssistant"
-  s.screenshots  = "https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard.png", "https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard_iPad.png"
+  s.screenshots  = "https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard.png","https://github.com/IMcD23/InputAssistant/raw/master/Resources/Keyboard_iPad.png",
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

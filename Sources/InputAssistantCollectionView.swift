@@ -21,7 +21,8 @@ class InputAssistantCollectionView: UICollectionView {
     
     init() {
         let layout = UICollectionViewFlowLayout()
-        layout.estimatedItemSize = UICollectionViewFlowLayoutAutomaticSize
+        layout.estimatedItemSize = CGSize(width: 100, height: 41)
+        layout.itemSize = UICollectionViewFlowLayoutAutomaticSize
         layout.scrollDirection = .horizontal
         layout.minimumInteritemSpacing = 10
         layout.sectionInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)

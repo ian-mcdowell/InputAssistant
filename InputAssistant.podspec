@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "InputAssistant"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "This library is a view that shows custom auto-complete suggestions for your UITextField / UITextView."
 
   # This description is used to generate tags and improve search results.

@@ -1,0 +1,65 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.swiftmodule","<InputAssistant-debug.module>"]
+  "test": ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.swiftmodule","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantPackageTests.xctest/Contents/MacOS/InputAssistantPackageTests","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.swiftmodule","<InputAssistant-debug.module>","<InputAssistantPackageTests-debug.test>","<InputAssistantTests-debug.module>"]
+  "InputAssistant-debug.module": ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.swiftmodule","<InputAssistant-debug.module>"]
+  "InputAssistantPackageTests-debug.test": ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantPackageTests.xctest/Contents/MacOS/InputAssistantPackageTests","<InputAssistantPackageTests-debug.test>"]
+  "InputAssistantTests-debug.module": ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.swiftmodule","<InputAssistantTests-debug.module>"]
+default: "main"
+commands: 
+  "<C.InputAssistant-debug.module>":
+    tool: phony
+    inputs: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.swiftmodule"]
+    outputs: ["<InputAssistant-debug.module>"]
+
+  "<C.InputAssistantPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantPackageTests.xctest/Contents/MacOS/InputAssistantPackageTests"]
+    outputs: ["<InputAssistantPackageTests-debug.test>"]
+
+  "<C.InputAssistantTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.swiftmodule"]
+    outputs: ["<InputAssistantTests-debug.module>"]
+
+  "C.InputAssistant-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "InputAssistant"
+    module-output-path: "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.swiftmodule"
+    inputs: ["/Users/brian/Desktop/git/InputAssistant/Sources/InputAssistant/InputAssistantCollectionView.swift","/Users/brian/Desktop/git/InputAssistant/Sources/InputAssistant/InputAssistantView.swift"]
+    outputs: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantCollectionView.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantView.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.swiftmodule"]
+    import-paths: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build"
+    objects: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantCollectionView.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantView.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j6","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/brian/Desktop/git/InputAssistant/Sources/InputAssistant/InputAssistantCollectionView.swift","/Users/brian/Desktop/git/InputAssistant/Sources/InputAssistant/InputAssistantView.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "6"
+
+  "C.InputAssistantPackageTests-debug.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx/debug/InputAssistantPackageTests.xctest/Contents/MacOS/InputAssistantPackageTests"
+    inputs: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantCollectionView.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantView.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.build/InputAssistantTests.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantPackageTests.xctest/Contents/MacOS/InputAssistantPackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug","-o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantPackageTests.xctest/Contents/MacOS/InputAssistantPackageTests","-module-name","InputAssistantPackageTests","-Xlinker","-bundle","@/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.InputAssistantTests-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "InputAssistantTests"
+    module-output-path: "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.swiftmodule"
+    inputs: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.swiftmodule","/Users/brian/Desktop/git/InputAssistant/Tests/InputAssistantTests/InputAssistantTests.swift","/Users/brian/Desktop/git/InputAssistant/Tests/InputAssistantTests/XCTestManifests.swift"]
+    outputs: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.build/InputAssistantTests.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.build/XCTestManifests.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.swiftmodule"]
+    import-paths: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.build"
+    objects: ["/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.build/InputAssistantTests.swift.o","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistantTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j6","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/brian/Desktop/git/InputAssistant/Tests/InputAssistantTests/InputAssistantTests.swift","/Users/brian/Desktop/git/InputAssistant/Tests/InputAssistantTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "6"
+

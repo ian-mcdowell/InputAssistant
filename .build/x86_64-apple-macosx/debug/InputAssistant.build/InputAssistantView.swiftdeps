@@ -1,0 +1,182 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InputAssistantAction"
+- "InputAssistantViewDataSource"
+- "InputAssistantViewDelegate"
+- "InputAssistantView"
+provides-nominal:
+- "14InputAssistant0aB6ActionV"
+- "14InputAssistant0aB14ViewDataSourceP"
+- "14InputAssistant0aB12ViewDelegateP"
+- "14InputAssistant0aB4ViewC"
+provides-member:
+- ["14InputAssistant0aB6ActionV", ""]
+- ["14InputAssistant0aB14ViewDataSourceP", ""]
+- ["14InputAssistant0aB12ViewDelegateP", ""]
+- ["14InputAssistant0aB4ViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CGFloat"
+- !private "CGRect"
+- "CGSize"
+- !private "FloatLiteralType"
+- "IndexPath"
+- "InputAssistantAction"
+- "InputAssistantCollectionView"
+- "InputAssistantView"
+- "InputAssistantViewDataSource"
+- "InputAssistantViewDelegate"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- "NSKeyValueObservation"
+- "Selector"
+- "String"
+- !private "StringLiteralType"
+- !private "UIButton"
+- "UICollectionView"
+- "UICollectionViewDelegate"
+- !private "UIDevice"
+- !private "UIGraphicsImageRenderer"
+- "UIImage"
+- "UIInputView"
+- "UIInputViewAudioFeedback"
+- "UIKeyboardAppearance"
+- "UIStackView"
+- "UITextField"
+- "UITextView"
+- "UITraitCollection"
+- !private "UIView"
+- !private "fatalError"
+depends-member:
+- !private ["Sa", "isEmpty"]
+- !private ["SK", "isEmpty"]
+- !private ["Sl", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["Se", "isEmpty"]
+- !private ["SE", "isEmpty"]
+- !private ["SQ", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["SH", "isEmpty"]
+- ["14InputAssistant0aB6ActionV", "AnyObject"]
+- ["14InputAssistant0aB6ActionV", "Selector"]
+- ["14InputAssistant0aB6ActionV", "UIImage"]
+- !private ["14InputAssistant0aB6ActionV", "action"]
+- !private ["14InputAssistant0aB6ActionV", "image"]
+- ["14InputAssistant0aB6ActionV", "target"]
+- !private ["14InputAssistant0aB14CollectionViewC", "delegate"]
+- ["14InputAssistant0aB14CollectionViewC", "init"]
+- !private ["14InputAssistant0aB14CollectionViewC", "inputAssistantView"]
+- !private ["14InputAssistant0aB14CollectionViewC", "reloadData"]
+- !private ["14InputAssistant0aB14CollectionViewC", "setContentHuggingPriority"]
+- ["14InputAssistant0aB4ViewC", "Bool"]
+- !private ["14InputAssistant0aB4ViewC", "CGFloat"]
+- !private ["14InputAssistant0aB4ViewC", "CGSize"]
+- ["14InputAssistant0aB4ViewC", "IndexPath"]
+- ["14InputAssistant0aB4ViewC", "InputAssistantAction"]
+- ["14InputAssistant0aB4ViewC", "InputAssistantCollectionView"]
+- ["14InputAssistant0aB4ViewC", "InputAssistantViewDataSource"]
+- ["14InputAssistant0aB4ViewC", "InputAssistantViewDelegate"]
+- ["14InputAssistant0aB4ViewC", "NSCoder"]
+- ["14InputAssistant0aB4ViewC", "NSKeyValueObservation"]
+- !private ["14InputAssistant0aB4ViewC", "UIButton"]
+- ["14InputAssistant0aB4ViewC", "UICollectionView"]
+- !private ["14InputAssistant0aB4ViewC", "UIDevice"]
+- ["14InputAssistant0aB4ViewC", "UIKeyboardAppearance"]
+- ["14InputAssistant0aB4ViewC", "UIStackView"]
+- ["14InputAssistant0aB4ViewC", "UITextField"]
+- ["14InputAssistant0aB4ViewC", "UITextView"]
+- ["14InputAssistant0aB4ViewC", "UITraitCollection"]
+- !private ["14InputAssistant0aB4ViewC", "UIView"]
+- !private ["14InputAssistant0aB4ViewC", "addSubview"]
+- ["14InputAssistant0aB4ViewC", "dataSource"]
+- ["14InputAssistant0aB4ViewC", "delegate"]
+- ["14InputAssistant0aB4ViewC", "enableInputClicksWhenVisible"]
+- !private ["14InputAssistant0aB4ViewC", "fatalError"]
+- ["14InputAssistant0aB4ViewC", "init"]
+- !private ["14InputAssistant0aB4ViewC", "keyboardAppearance"]
+- !private ["14InputAssistant0aB4ViewC", "keyboardAppearanceObserver"]
+- ["14InputAssistant0aB4ViewC", "leadingActions"]
+- !private ["14InputAssistant0aB4ViewC", "leadingStackView"]
+- ["14InputAssistant0aB4ViewC", "reloadData"]
+- !private ["14InputAssistant0aB4ViewC", "suggestionsCollectionView"]
+- !private ["14InputAssistant0aB4ViewC", "tintColor"]
+- ["14InputAssistant0aB4ViewC", "trailingActions"]
+- !private ["14InputAssistant0aB4ViewC", "trailingStackView"]
+- !private ["14InputAssistant0aB4ViewC", "updateActions"]
+- ["14InputAssistant0aB14ViewDataSourceP", "InputAssistantView"]
+- ["14InputAssistant0aB14ViewDataSourceP", "Int"]
+- ["14InputAssistant0aB14ViewDataSourceP", "String"]
+- ["14InputAssistant0aB14ViewDataSourceP", "inputAssistantView"]
+- ["14InputAssistant0aB14ViewDataSourceP", "numberOfSuggestionsInInputAssistantView"]
+- ["14InputAssistant0aB14ViewDataSourceP", "textForEmptySuggestionsInInputAssistantView"]
+- ["14InputAssistant0aB12ViewDelegateP", "InputAssistantView"]
+- ["14InputAssistant0aB12ViewDelegateP", "Int"]
+- ["14InputAssistant0aB12ViewDelegateP", "inputAssistantView"]
+- !private ["SM", "isEmpty"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", "isEmpty"]
+- !private ["ST", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- "14InputAssistant0aB6ActionV"
+- "14InputAssistant0aB14CollectionViewC"
+- "14InputAssistant0aB4ViewC"
+- "14InputAssistant0aB14ViewDataSourceP"
+- "14InputAssistant0aB12ViewDelegateP"
+- !private "SM"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/ThreadLocalStorage.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStddef.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/AssertionReporting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/KeyPath.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdbool.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/System.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Random.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/LibcShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/UnicodeShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/FoundationShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/GlobalObjects.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/HeapObject.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Target.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdint.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RefCount.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Visibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/module.modulemap"
+interface-hash: "2a39c99fa8ff84570112d3a38ffadd53"

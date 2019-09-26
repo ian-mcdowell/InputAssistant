@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/master.swiftdeps"
+  },
+  "/Users/brian/Desktop/git/InputAssistant/Sources/InputAssistant/InputAssistantCollectionView.swift": {
+    "dependencies": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantCollectionView.d",
+    "object": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantCollectionView.swift.o",
+    "swiftmodule": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantCollectionView~partial.swiftmodule",
+    "swift-dependencies": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantCollectionView.swiftdeps"
+  },
+  "/Users/brian/Desktop/git/InputAssistant/Sources/InputAssistant/InputAssistantView.swift": {
+    "dependencies": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantView.d",
+    "object": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantView.swift.o",
+    "swiftmodule": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantView~partial.swiftmodule",
+    "swift-dependencies": "/Users/brian/Desktop/git/InputAssistant/.build/x86_64-apple-macosx/debug/InputAssistant.build/InputAssistantView.swiftdeps"
+  }
+}

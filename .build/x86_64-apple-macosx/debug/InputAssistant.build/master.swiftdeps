@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "4d3c5993ba933d7e46c4269afbeb5c04"
+build_time: [1569537577, 522139000]
+inputs:
+  "/Users/brian/Desktop/git/InputAssistant/Sources/InputAssistant/InputAssistantCollectionView.swift": !dirty [1569537353, 776872014]
+  "/Users/brian/Desktop/git/InputAssistant/Sources/InputAssistant/InputAssistantView.swift": !dirty [1569537353, 777031067]

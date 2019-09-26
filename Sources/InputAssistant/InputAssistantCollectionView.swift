@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 class InputAssistantCollectionView: UICollectionView {
     
     /// Reference to the containing input assistant view
@@ -71,6 +72,7 @@ class InputAssistantCollectionView: UICollectionView {
     }
 }
 
+@available(iOS 10.0, *)
 extension InputAssistantCollectionView: UICollectionViewDataSource {
     
     public func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -95,6 +97,7 @@ extension InputAssistantCollectionView: UICollectionViewDataSource {
     }
 }
 
+@available(iOS 9.0, *)
 private class InputAssistantCollectionViewCell: UICollectionViewCell {
     
     let label: UILabel

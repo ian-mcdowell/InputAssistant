@@ -22,6 +22,7 @@ public struct InputAssistantAction {
     }
 }
 
+@available(iOS 10.0, *)
 public protocol InputAssistantViewDataSource: class {
     
     /// Text to display when there are no suggestions.
@@ -35,6 +36,7 @@ public protocol InputAssistantViewDataSource: class {
 }
 
 /// Delegate to receive notifications about user actions in the input assistant view.
+@available(iOS 10.0, *)
 public protocol InputAssistantViewDelegate: class {
     
     /// When the user taps on a suggestion
@@ -42,6 +44,7 @@ public protocol InputAssistantViewDelegate: class {
 }
 
 /// UIInputView that displays custom suggestions, as well as leading and trailing actions.
+@available(iOS 10.0, *)
 open class InputAssistantView: UIInputView {
     
     /// Actions to display on the leading side of the suggestions.
@@ -194,6 +197,7 @@ open class InputAssistantView: UIInputView {
     }
 }
 
+@available(iOS 10.0, *)
 extension UIImage {
     
     /// Scales the image to the given CGSize
@@ -209,6 +213,7 @@ extension UIImage {
     }
 }
 
+@available(iOS 10.0, *)
 extension InputAssistantView: UICollectionViewDelegate {
     
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -219,6 +224,7 @@ extension InputAssistantView: UICollectionViewDelegate {
     }
 }
 
+@available(iOS 10.0, *)
 extension InputAssistantView: UIInputViewAudioFeedback {
     
     public var enableInputClicksWhenVisible: Bool { return true }

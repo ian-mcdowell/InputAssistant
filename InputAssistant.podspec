@@ -127,7 +127,7 @@ InputAssistant 1.0.3 - This library is a view that shows custom auto-complete su
   #  you can include multiple dependencies to ensure it works.
 
   s.requires_arc = true
-  s.swift_version = "4.2"
+  s.swift_version = "5"
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

@@ -32,6 +32,7 @@ class InputAssistantCollectionView: UICollectionView {
         backgroundColor = .clear
         showsHorizontalScrollIndicator = false
         showsVerticalScrollIndicator = false
+        delaysContentTouches = false
         dataSource = self
         
         noSuggestionsLabel.textAlignment = .center

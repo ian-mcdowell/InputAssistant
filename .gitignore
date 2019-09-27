@@ -3,3 +3,4 @@
 *.xcuserdatad
 Carthage/
 Pods/
+.build/

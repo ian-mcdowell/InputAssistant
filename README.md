@@ -58,6 +58,10 @@ Then, add the `.xcodeproj` in the root of the repository into your Xcode project
 ## ibuild
 A Swift static library of this project is also available for the ibuild build system. Learn more about ibuild [here](https://github.com/IMcD23/ibuild)
 
+## Swift Package
+You can add this library directly to your Xcode project as a Swift Package. Copy the URL of the project, go to Xcode (must be Xcode 11 or newer), go to File>Swift Packages>Add Dependency Package...
+You can learn more about Swift Packages [here](https://developer.apple.com/documentation/swift_packages/creating_a_swift_package_with_xcode). You can learn more about managing Swift Package dependencies in Xcode projects  [here](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
+
 # Author
 Created by [Ian McDowell](https://ianmcdowell.net)
 

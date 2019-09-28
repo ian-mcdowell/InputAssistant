@@ -88,7 +88,7 @@ extension InputAssistantCollectionView: UICollectionViewDataSource {
         
         guard let inputAssistantView = inputAssistantView, let name = inputAssistantView.dataSource?.inputAssistantView(inputAssistantView, nameForSuggestionAtIndex: indexPath.row) else {
             print("\(indexPath.row)")
-            //fatalError("No suggestion name found at index: \(indexPath.row).")
+            fatalError("No suggestion name found at index: \(indexPath.row).")
         }
 
         cell.label.text = name

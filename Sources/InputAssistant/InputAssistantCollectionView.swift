@@ -87,6 +87,8 @@ extension InputAssistantCollectionView: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Suggestion", for: indexPath) as! InputAssistantCollectionViewCell
         
         guard let inputAssistantView = inputAssistantView, let name = inputAssistantView.dataSource?.inputAssistantView(inputAssistantView, nameForSuggestionAtIndex: indexPath.row) else {
+            print("\(indexPath.row)")
+            print(inputAssistantView.dataSource?.inputAssistantView(inputAssistantView, nameForSuggestionAtIndex: indexPath.row))
             fatalError("No suggestion name found at index: \(indexPath.row).")
         }
 
